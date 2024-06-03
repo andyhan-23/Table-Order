@@ -1,5 +1,8 @@
 import { UIProvider } from "./components/providers";
-import { UIProvider as AppUIProvider } from "./components/providers";
+import {
+  UIProvider as AppUIProvider,
+  DataProvider,
+} from "./components/providers";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -18,7 +21,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       </head>
       <body>
         <UIProvider>
-          <AppUIProvider>{children}</AppUIProvider>
+          <AppUIProvider>
+            <DataProvider>{children}</DataProvider>
+          </AppUIProvider>
         </UIProvider>
       </body>
     </html>
