@@ -20,3 +20,5 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     </body>
   </html>;
 };
+
+export default RootLayout;
