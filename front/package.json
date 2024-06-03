@@ -1,5 +1,5 @@
 {
-  "name": "my",
+  "name": "front",
   "private": true,
   "scripts": {
     "build": "turbo build",
