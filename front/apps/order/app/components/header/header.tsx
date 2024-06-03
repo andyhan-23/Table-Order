@@ -1,5 +1,5 @@
 import { HStack, Text } from "@chakra-ui/react";
-import { CallStaff } from ".";
+import CallStaff from "./call-staff";
 import OpenBill from "./open-bill";
 
 export const Header = () => {

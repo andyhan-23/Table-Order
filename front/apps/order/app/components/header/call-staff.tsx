@@ -2,7 +2,7 @@ import CTAButton from "../buttons/cta";
 import { Box, Text, useToast } from "@chakra-ui/react";
 import { useRef } from "react";
 
-const CallStaff: () => JSX.Element = () => {
+const CallStaff = () => {
   const toast = useToast();
   const toastIdRef = useRef();
   const onClick = () => {
