@@ -1,11 +1,13 @@
 "use client";
 
-import { Button } from "@chakra-ui/react";
-
+import { Stack } from "@chakra-ui/react";
+import { Header } from "./components/header";
 const Page: () => JSX.Element = () => {
   return (
     <>
-      <Button>버튼</Button>
+      <Stack position="relative">
+        <Header />
+      </Stack>
     </>
   );
 };
