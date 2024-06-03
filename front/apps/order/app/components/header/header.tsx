@@ -1,4 +1,5 @@
 import { HStack, Text } from "@chakra-ui/react";
+import { CallStaff } from ".";
 
 export const Header = () => {
   return (
@@ -14,6 +15,7 @@ export const Header = () => {
       w="100%"
       zIndex={2}
     >
+      <CallStaff />
       <Text
         fontSize="calc(min(1.5rem + 1vw, 2rem))"
         fontWeight={900}
