@@ -2,6 +2,7 @@
 
 import { Stack } from "@chakra-ui/react";
 import { Header } from "./components/header";
+import { Suspense } from "react";
 const Page: () => JSX.Element = () => {
   return (
     <>
