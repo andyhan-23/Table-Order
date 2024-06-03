@@ -1,12 +1,12 @@
 import CTAButton from "../buttons/cta";
-import { Box, Text, useToast } from "@chakra-ui/react";
+import { Box, Text, useToast, ToastId } from "@chakra-ui/react";
 import { useRef } from "react";
 
 const CallStaff = () => {
   const toast = useToast();
-  const toastIdRef = useRef();
+  const toastIdRef = useRef<ToastId | null>(null);
   const onClick = () => {
-    if (toast.isActive(toastIdRef.current)) {
+    if (toastIdRef.current && toast.isActive(toastIdRef.current)) {
       toast.update(toastIdRef.current, {
         colorScheme: "red",
         containerStyle: {
