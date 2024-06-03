@@ -1,5 +1,6 @@
 import { HStack, Text } from "@chakra-ui/react";
 import { CallStaff } from ".";
+import OpenBill from "./open-bill";
 
 export const Header = () => {
   return (
@@ -25,6 +26,7 @@ export const Header = () => {
       >
         메뉴판
       </Text>
+      <OpenBill />
     </HStack>
   );
 };
