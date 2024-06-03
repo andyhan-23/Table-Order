@@ -1,5 +1,13 @@
+"use client";
+
+import { Button } from "@chakra-ui/react";
+
 const Page: () => JSX.Element = () => {
-  return <div>메인 페이지</div>;
+  return (
+    <>
+      <Button>버튼</Button>
+    </>
+  );
 };
 
 export default Page;
