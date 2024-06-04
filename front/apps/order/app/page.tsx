@@ -19,6 +19,7 @@ const Page: () => JSX.Element = () => {
       })();
     }
   }
+
   return (
     <>
       <Stack position="relative">
