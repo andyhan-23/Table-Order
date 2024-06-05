@@ -35,7 +35,6 @@ const MenuContainer = () => {
     if (!(menuCategoreisLoading || menuItemsLoading)) setIsLoading(false);
   }, [menuCategoreisLoading, menuItemsLoading]);
 
-  console.log("Data", menuCategoriesData);
   return isLoading ? (
     <MenuSkeleton />
   ) : (
