@@ -24,7 +24,7 @@ export const Header = () => {
         overflow="hidden"
         whiteSpace="nowrap"
       >
-        메뉴판
+        Menu
       </Text>
       <OpenBill />
     </HStack>
