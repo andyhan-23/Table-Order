@@ -1,6 +1,9 @@
 import { Box, HStack } from "@chakra-ui/react";
 import Text from "./text";
 import Image from "./image";
+import { menuDetailModalStore } from "../../../stores/modal";
+import { useSetRecoilState } from "recoil";
+import useModal from "../../../hooks/use-modal";
 
 type ItemPropsT = {
   id: string;
@@ -9,6 +12,12 @@ type ItemPropsT = {
   price: number;
 };
 const Item = ({ id, imgSrc, name, price }: ItemPropsT): JSX.Element => {
+  const setMenuDetailID = useSetRecoilState(menuDetailModalStore);
+  const { onOpen } = useModal("menuDetail");
+  const onClick = () => {
+    setMenuDetailID({ id, quantity: 1 });
+    onOpen();
+  };
   return (
     <Box boxSizing="border-box" flexBasis={0} flexGrow={3} h="100%">
       <HStack gap={0} h="100%" p="8px" w="100%">
@@ -22,6 +31,7 @@ const Item = ({ id, imgSrc, name, price }: ItemPropsT): JSX.Element => {
           gap={0}
           h="100%"
           justifyContent="space-between"
+          onClick={onClick}
           w="100%"
         >
           <Text name={name} price={price} />
