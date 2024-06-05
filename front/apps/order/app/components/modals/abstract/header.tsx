@@ -1,0 +1,36 @@
+import { Flex, HStack, ModalHeader, Text } from "@chakra-ui/react";
+import CTAButton from "../../buttons/cta";
+
+type HeaderType = {
+  onClose: () => void;
+  title: string;
+};
+
+const Header = ({ onClose, title }: HeaderType) => (
+  <ModalHeader
+    borderBottom="1px solid lightgray"
+    flex="none"
+    h="8vh"
+    minH="80px"
+    py={0}
+  >
+    <HStack h="100%" justifyContent="space-between" py={0} w="100%">
+      <Text fontSize="2xl" fontWeight={900}>
+        {title}
+      </Text>
+      <Flex flexBasis="25%" h="50%" minH="36px" my="auto">
+        <CTAButton
+          className="bg-pink"
+          content={
+            <Text fontSize="xl" fontWeight={800}>
+              닫기
+            </Text>
+          }
+          onClick={onClose}
+        />
+      </Flex>
+    </HStack>
+  </ModalHeader>
+);
+
+export default Header;
