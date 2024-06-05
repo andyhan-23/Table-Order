@@ -11,7 +11,7 @@ type ModalType = {
   onClose: () => void;
 };
 
-const Modal = ({ children, isOpen, onClose }: ModalType) => {
+const AbstractModal = ({ children, isOpen, onClose }: ModalType) => {
   let maxW;
   try {
     maxW = document.body.clientWidth * 0.92;
@@ -36,8 +36,8 @@ const Modal = ({ children, isOpen, onClose }: ModalType) => {
   );
 };
 
-Modal.Header = Header;
-Modal.Body = Body;
-Modal.Footer = Footer;
+AbstractModal.Header = Header;
+AbstractModal.Body = Body;
+AbstractModal.Footer = Footer;
 
-export default Modal;
+export default AbstractModal;

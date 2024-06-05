@@ -4,7 +4,7 @@ type MenuItemsStoreType = {
   [key: string]: {
     category: string;
     detail: string;
-    imageSrc: string;
+    imgSrc: string;
     name: string;
     order: number;
     price: { defaultPrice: number };

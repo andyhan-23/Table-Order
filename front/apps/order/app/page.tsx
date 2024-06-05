@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { Suspense } from "react";
 import MenuSkeleton from "./components/menu/skeleton";
 import { MenuContainer } from "./components/menu";
+import { Modals } from "./components/modals";
 
 const Page: () => JSX.Element = () => {
   if (process.env.NODE_ENV === "development") {
@@ -28,6 +29,7 @@ const Page: () => JSX.Element = () => {
         <Suspense fallback={<MenuSkeleton />}>
           <MenuContainer />
         </Suspense>
+        <Modals />
       </Stack>
     </>
   );
