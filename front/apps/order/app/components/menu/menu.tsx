@@ -24,4 +24,4 @@ const Menu = ({ children }: { children: ReactNode }): JSX.Element => {
 Menu.ItemArea = Item;
 Menu.ButtonArea = AddItemToBasketButton;
 
-export { Menu };
+export default Menu;

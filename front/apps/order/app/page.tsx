@@ -4,6 +4,7 @@ import { Stack } from "@chakra-ui/react";
 import { Header } from "./components/header";
 import { Suspense } from "react";
 import MenuSkeleton from "./components/menu/skeleton";
+import { MenuContainer } from "./components/menu";
 
 const Page: () => JSX.Element = () => {
   if (process.env.NODE_ENV === "development") {
@@ -24,7 +25,9 @@ const Page: () => JSX.Element = () => {
     <>
       <Stack position="relative">
         <Header />
-        <Suspense fallback={<MenuSkeleton />}></Suspense>
+        <Suspense fallback={<MenuSkeleton />}>
+          <MenuContainer />
+        </Suspense>
       </Stack>
     </>
   );

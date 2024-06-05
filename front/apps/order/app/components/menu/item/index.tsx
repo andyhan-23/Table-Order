@@ -22,7 +22,6 @@ const Item = ({ id, imageSrc, name, price }: ItemPropsT): JSX.Element => {
           gap={0}
           h="100%"
           justifyContent="space-between"
-          onClick={onClick}
           w="100%"
         >
           <Text name={name} price={price} />

@@ -22,7 +22,7 @@ type MenuCategoriesType = {
   };
 };
 
-export const menuCategoies: RecoilState<MenuCategoriesType> = atom({
+export const menuCategoriesStore: RecoilState<MenuCategoriesType> = atom({
   key: "menuCategoriesStore",
   default: {},
 });

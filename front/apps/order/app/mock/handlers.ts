@@ -16,10 +16,10 @@ import menuCategoriesJSON from "./__fixtures__/menu-categories.json";
 
 const handlers = [
   rest.get("/item", (req, res, ctx) => {
-    return res(ctx.status(200), ctx.json([menuItemsJSON]));
+    return res(ctx.status(200), ctx.json(menuItemsJSON));
   }),
   rest.get("/categories", (req, res, ctx) => {
-    return res(ctx.status(200), ctx.json([menuCategoriesJSON]));
+    return res(ctx.status(200), ctx.json(menuCategoriesJSON));
   }),
 ];
 
