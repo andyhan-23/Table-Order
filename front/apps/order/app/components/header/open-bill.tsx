@@ -1,7 +1,9 @@
 import CTAButton from "../buttons/cta";
 import { Box, Text } from "@chakra-ui/react";
+import useModal from "../../hooks/use-modal";
 
 const OpenBill = () => {
+  const { onOpen } = useModal("bill");
   return (
     <Box flexBasis="130px" h="2.5rem" maxW="30%">
       <CTAButton
@@ -15,6 +17,7 @@ const OpenBill = () => {
             주문 내역
           </Text>
         }
+        onClick={onOpen}
       />
     </Box>
   );
