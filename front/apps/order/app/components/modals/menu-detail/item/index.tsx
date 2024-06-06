@@ -3,6 +3,7 @@ import { useRecoilValue } from "recoil";
 import Text from "./text";
 import Image from "./image";
 import { menuDetailModalStore } from "../../../../stores/modal";
+import { AddButton, SubtractButton } from "./button";
 
 type MenuDetailItemPropsType = {
   detail: string;
@@ -38,6 +39,13 @@ const Item = ({ detail, imgSrc, name, price }: MenuDetailItemPropsType) => {
         <ChakraText flexGrow="2" fontSize="2xl" fontWeight={900} pl="10%">
           수량
         </ChakraText>
+        <Flex flexGrow="2" justifyContent="space-evenly">
+          <SubtractButton />
+          <ChakraText fontSize="2xl" fontWeight={900}>
+            {quantity}
+          </ChakraText>
+          <AddButton />
+        </Flex>
       </HStack>
     </VStack>
   );
