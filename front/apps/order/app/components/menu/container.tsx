@@ -1,11 +1,4 @@
-import {
-  Stack,
-  VStack,
-  Text,
-  Flex,
-  useToast,
-  useMenuItem,
-} from "@chakra-ui/react";
+import { Stack, VStack, Text, Flex, useToast } from "@chakra-ui/react";
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 import { menuCategoriesStore, menuItemsStore } from "../../stores/menu";
 import useGetMenuItem from "../../hooks/use-get-menu-item";
@@ -14,6 +7,8 @@ import { useEffect, useState } from "react";
 import Menu from "./menu";
 import MenuSkeleton from "./skeleton";
 import ResetStateButton from "./reset-state-button";
+import { basketItemsStore } from "../../stores/basket";
+import { addItemInBasket } from "../../stores/basket";
 
 const MenuContainer = () => {
   const [menuCategories, setMenuCategories] =
@@ -23,6 +18,45 @@ const MenuContainer = () => {
   const { data: menuCategoriesData, isLoading: menuCategoreisLoading } =
     useGetMenuCategories();
   const { data: menuItemsData, isLoading: menuItemsLoading } = useGetMenuItem();
+
+  const basketItems = useRecoilValue(basketItemsStore);
+  const addItem = useSetRecoilState(addItemInBasket);
+  const toast = useToast();
+
+  const getQuantity = (id: string) => basketItems[id]?.count ?? 0;
+
+  const activeToastID = "onAddItemClick-Toast";
+  const onAddItemClick = (id: string) => {
+    addItem(id);
+    if (toast.isActive(activeToastID)) {
+      toast.update(activeToastID, {
+        title: "장바구니에 메뉴를 더 담았어요.",
+        description: "하단의 장바구니 보기를 눌러 확인해주세요.",
+        status: "success",
+
+        duration: 2300,
+        isClosable: true,
+        position: "top",
+        containerStyle: {
+          marginTop: "7.5vh",
+        },
+      });
+      return;
+    }
+    toast.closeAll();
+    toast({
+      title: "장바구니에 메뉴를 담았어요.",
+      description: "하단의 장바구니 보기를 눌러 확인해주세요.",
+      status: "success",
+      duration: 1500,
+      isClosable: true,
+      id: activeToastID,
+      position: "top",
+      containerStyle: {
+        marginTop: "7.5vh",
+      },
+    });
+  };
 
   useEffect(() => {
     if (menuCategoriesData) setMenuCategories(menuCategoriesData);
@@ -63,6 +97,10 @@ const MenuContainer = () => {
               {Object.values(menuIds).map((menuId: string) => (
                 <Menu key={menuId}>
                   <Menu.ItemArea {...{ id: menuId, ...menuItems[menuId] }} />
+                  <Menu.ButtonArea
+                    onClick={() => onAddItemClick(menuId)}
+                    quantity={getQuantity(menuId)}
+                  />
                 </Menu>
               ))}
             </VStack>
