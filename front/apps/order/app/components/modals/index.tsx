@@ -2,6 +2,7 @@ import { useRecoilValue } from "recoil";
 import { MenuDetailModal } from "./menu-detail";
 import { modal } from "../../stores/modal";
 import { BasketModal } from "./basket";
+import { ConfirmModal } from "./confirm";
 
 const Switch = ({ modals }: { modals: { [key: string]: JSX.Element } }) => {
   const modalKeys = useRecoilValue(modal);
@@ -17,6 +18,7 @@ export const Modals = () => (
     modals={{
       menuDetail: <MenuDetailModal />,
       basket: <BasketModal />,
+      confirm: <ConfirmModal />,
     }}
   />
 );
