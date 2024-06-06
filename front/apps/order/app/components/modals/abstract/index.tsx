@@ -16,7 +16,7 @@ const AbstractModal = ({ children, isOpen, onClose }: ModalType) => {
   try {
     maxW = document.body.clientWidth * 0.92;
   } catch {
-    maxW = "700px";
+    maxW = "515px";
   }
   return (
     <ChakraModal
