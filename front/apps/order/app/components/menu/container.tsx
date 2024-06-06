@@ -7,7 +7,7 @@ import {
   useMenuItem,
 } from "@chakra-ui/react";
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
-import { menuCategoriesStore, menuItemsScore } from "../../stores/menu";
+import { menuCategoriesStore, menuItemsStore } from "../../stores/menu";
 import useGetMenuItem from "../../hooks/use-get-menu-item";
 import useGetMenuCategories from "../../hooks/use-get-menu-categories";
 import { useEffect, useState } from "react";
@@ -17,7 +17,7 @@ import MenuSkeleton from "./skeleton";
 const MenuContainer = () => {
   const [menuCategories, setMenuCategories] =
     useRecoilState(menuCategoriesStore);
-  const [menuItems, setMenuItemes] = useRecoilState(menuItemsScore);
+  const [menuItems, setMenuItemes] = useRecoilState(menuItemsStore);
   const [isLoading, setIsLoading] = useState(true);
   const { data: menuCategoriesData, isLoading: menuCategoreisLoading } =
     useGetMenuCategories();

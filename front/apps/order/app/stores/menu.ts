@@ -11,7 +11,7 @@ type MenuItemsStoreType = {
   };
 };
 
-export const menuItemsScore: RecoilState<MenuItemsStoreType> = atom({
+export const menuItemsStore: RecoilState<MenuItemsStoreType> = atom({
   key: "menuItemsStore",
   default: {},
 });
