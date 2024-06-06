@@ -30,8 +30,8 @@ const Page: () => JSX.Element = () => {
         <Suspense fallback={<MenuSkeleton />}>
           <MenuContainer />
         </Suspense>
-        <Modals />
         <Footer />
+        <Modals />
       </Stack>
     </>
   );
