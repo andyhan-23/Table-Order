@@ -7,7 +7,7 @@ type MenuItemsStoreType = {
     imgSrc: string;
     name: string;
     order: number;
-    price: { defaultPrice: number };
+    price: number;
   };
 };
 
