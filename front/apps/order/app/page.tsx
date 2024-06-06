@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import MenuSkeleton from "./components/menu/skeleton";
 import { MenuContainer } from "./components/menu";
 import { Modals } from "./components/modals";
+import Footer from "./components/footer";
 
 const Page: () => JSX.Element = () => {
   if (process.env.NODE_ENV === "development") {
@@ -30,6 +31,7 @@ const Page: () => JSX.Element = () => {
           <MenuContainer />
         </Suspense>
         <Modals />
+        <Footer />
       </Stack>
     </>
   );
