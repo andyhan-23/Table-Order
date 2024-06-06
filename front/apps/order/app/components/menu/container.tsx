@@ -13,6 +13,7 @@ import useGetMenuCategories from "../../hooks/use-get-menu-categories";
 import { useEffect, useState } from "react";
 import Menu from "./menu";
 import MenuSkeleton from "./skeleton";
+import ResetStateButton from "./reset-state-button";
 
 const MenuContainer = () => {
   const [menuCategories, setMenuCategories] =
@@ -68,6 +69,7 @@ const MenuContainer = () => {
           </VStack>
         ))}
       </Stack>
+      <ResetStateButton />
     </VStack>
   );
 };
