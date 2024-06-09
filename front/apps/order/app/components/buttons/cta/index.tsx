@@ -15,7 +15,7 @@ const CTAButton = ({
 }: CTAButtonProps): JSX.Element => {
   return (
     <Button
-      _hover={{ bgColor: null }}
+      _hover={{ bgColor: undefined }}
       className={className}
       color="white"
       h="100%"
