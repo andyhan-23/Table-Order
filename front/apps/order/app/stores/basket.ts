@@ -25,10 +25,6 @@ type MenuItemType = {
   price: number;
 };
 
-type MenuItemsType = {
-  [key: string]: MenuItemType;
-};
-
 const { persistAtom } = recoilPersist();
 
 export const basketItemsStore: RecoilState<BasketItemsType> = atom({
@@ -113,8 +109,8 @@ export const deleteItemFromBasket = selector({
 
     set(basketItemsStore, {
       ...newBasket,
-      sumCount: basket.sumCount - itemInBasket.count,
-      sumPrice: basket.sumPrice - itemInBasket.count * menuItem.price,
+      sumCount: basket.sumCount - (itemInBasket?.count ?? 0),
+      sumPrice: basket.sumPrice - (itemInBasket?.count ?? 0) * menuItem.price,
     });
   },
 });
