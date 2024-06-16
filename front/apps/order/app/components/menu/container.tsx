@@ -25,6 +25,9 @@ const MenuContainer = () => {
 
   const getQuantity = (id: string) => basketItems[id]?.count ?? 0;
 
+  console.log("아이템 데이터", useQueryItemsResult.data);
+  console.log("카테고리 데이터", useQueryCategoriesResult.data);
+
   const activeToastID = "onAddItemClick-Toast";
   const onAddItemClick = (id: string) => {
     addItem(id);

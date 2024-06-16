@@ -10,7 +10,7 @@ const AddItemToBasketButton = ({
   onClick,
   quantity,
 }: AddItemToBasketButtonT): JSX.Element => {
-  const buttonClass = `bg-${quantity ? "orange" : "blue"}`;
+  const buttonClass = `bg-${quantity ? "orange" : "green"}`;
   const content =
     quantity > 0 ? (
       <HStack gap={0}>
