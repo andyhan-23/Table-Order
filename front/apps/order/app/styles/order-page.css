@@ -12,8 +12,8 @@ body {
 .bg-blue {
   background-color: var(--main-theme-blue);
 }
-.bg-pink {
-  background-color: var(--main-theme-pink);
+.bg-red {
+  background-color: var(--main-theme-red);
 }
 .bg-orange {
   background-color: var(--main-theme-orange);
