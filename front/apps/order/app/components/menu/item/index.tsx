@@ -11,6 +11,7 @@ type ItemPropsT = {
   name: string;
   price: number;
 };
+
 const Item = ({ id, imgSrc, name, price }: ItemPropsT): JSX.Element => {
   const setMenuDetailID = useSetRecoilState(menuDetailModalStore);
   const { onOpen } = useModal("menuDetail");

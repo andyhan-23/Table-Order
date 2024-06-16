@@ -19,7 +19,7 @@ type BasketItemsType = { [key: string]: BasketItemType } & {
 type MenuItemType = {
   category: string;
   detail: string;
-  imageSrc: string;
+  imgSrc: string;
   name: string;
   order: number;
   price: number;

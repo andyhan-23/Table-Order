@@ -15,9 +15,9 @@ const MenuContainer = () => {
     useRecoilState(menuCategoriesStore);
   const [menuItems, setMenuItemes] = useRecoilState(menuItemsStore);
   const [isLoading, setIsLoading] = useState(true);
-  const { data: menuCategoriesData, isLoading: menuCategoreisLoading } =
-    useGetMenuCategories();
-  const { data: menuItemsData, isLoading: menuItemsLoading } = useGetMenuItem();
+
+  const useQueryCategoriesResult = useGetMenuCategories();
+  const useQueryItemsResult = useGetMenuItem();
 
   const basketItems = useRecoilValue(basketItemsStore);
   const addItem = useSetRecoilState(addItemInBasket);
@@ -59,16 +59,20 @@ const MenuContainer = () => {
   };
 
   useEffect(() => {
-    if (menuCategoriesData) setMenuCategories(menuCategoriesData);
-  }, [menuCategoriesData]);
+    if (useQueryCategoriesResult?.data)
+      setMenuCategories(useQueryCategoriesResult.data);
+  }, [useQueryCategoriesResult]);
 
   useEffect(() => {
-    if (menuItemsData) setMenuItemes(menuItemsData);
-  }, [menuItemsData]);
+    if (useQueryItemsResult?.data) setMenuItemes(useQueryItemsResult.data);
+  }, [useQueryItemsResult]);
 
   useEffect(() => {
-    if (!(menuCategoreisLoading || menuItemsLoading)) setIsLoading(false);
-  }, [menuCategoreisLoading, menuItemsLoading]);
+    if (
+      !(useQueryCategoriesResult?.isLoading || useQueryItemsResult?.isLoading)
+    )
+      setIsLoading(false);
+  }, [useQueryCategoriesResult, useQueryItemsResult]);
 
   return isLoading ? (
     <MenuSkeleton />
