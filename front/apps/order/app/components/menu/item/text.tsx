@@ -7,7 +7,7 @@ type ItemTextT = {
 
 const Text = ({ name, price }: ItemTextT): JSX.Element => {
   return (
-    <VStack alignItems="flex-start" ml="6%">
+    <VStack alignItems="flex-start" ml="1%">
       <ChakraText fontSize="xl" fontWeight={900}>
         {name ?? ""}
       </ChakraText>

@@ -1,74 +1,194 @@
 {
   "1": {
-    "name": "아메리카노",
-    "detail": "강렬한 에스프레소를 얼음과 함께 시원하고 부드럽게 즐기는 커피.",
-    "imgSrc": "https://camo.githubusercontent.com/2af895dcb31ca450f3118dd961b11029a2d2e250066d63e961edd8e9cbc69515/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423130363530392535445f32303231303433303131313835323939392e6a70672f",
+    "name": "날씬오징어후라이드",
+    "detail": "상상치 못한 정체! 오징어 진미채를 튀겨내 겉바속촉 바삭쫄깃 멈출 수 없는 매력!",
+    "imgSrc": "https://camo.githubusercontent.com/deef2d838583bb82b2fc2feee0629fc7f614236b4948a736857550bf557c6851/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f31372f6865726f5f61657476515f323032335f31315f31375f31305f35365f30392e706e67",
     "price": 4500,
-    "category": "에스프레소",
+    "category": "튀김메뉴",
     "order": 0
   },
   "2": {
-    "name": "카라멜 마끼아또",
-    "detail": "바닐라 시럽, 시원한 우유, 얼음, 에스프레소, 카라멜 드리즐로 만든 달콤한 커피 음료.",
-    "imgSrc": "https://camo.githubusercontent.com/744ee56b12427690db086db76b7d0460325a3d1d4a08496ed6aa67ba3e25bc5b/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423131303538322535445f32303231303431353134323730363232392e6a7067",
+    "name": "마늘간장순살치킨",
+    "detail": "꿀을 곁들인 달콤 짭조름한 간장 소스와 알싸한 구운 마늘의 풍미가 치킨속으로 쏙!",
+    "imgSrc": "https://camo.githubusercontent.com/1da29e23464db93e34ea03563599385382b5db499b5240746cb8de1057b87cf9/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f31372f6865726f5f616e7942365f323032335f31315f31375f31305f35365f35302e706e67",
     "price": 5000,
-    "category": "에스프레소",
+    "category": "튀김메뉴",
     "order": 0
   },
   "3": {
-    "name": "카푸치노",
-    "detail": "진한 에스프레소와 신선한 우유, 우유 거품이 얼음과 함께 어우러진 부드럽고 시원한 커피 음료.",
-    "imgSrc": "https://camo.githubusercontent.com/a670544351f90ac1a3310c54d049eae1ae5fc323224889a2a152656b8c8d8e19/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423131303630312535445f32303231303431353134333430303932322e6a7067",
+    "name": "새우마빡튀김",
+    "detail": "품절주의! 손이 가요 손이 가~는 그 맛! 한번 먹으면 멈출 수 없는 그 맛!",
+    "imgSrc": "https://camo.githubusercontent.com/6b424b76d7d75e432d7dc48a710ff8517299346f1db02856e25bbf47b7aa063c/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f30392f6865726f5f655a6a61775f323032335f31315f30395f31345f34365f32302e706e67",
     "price": 5000,
-    "category": "에스프레소",
+    "category": "튀김메뉴",
     "order": 0
   },
   "4": {
-    "name": "돌체 라떼",
-    "detail": "깊은 커피 맛과 향에 무지방 우유와 돌체 시럽이 어우러진 달콤하고 진한 커피 라떼.",
-    "imgSrc": "https://camo.githubusercontent.com/26c64f1bb5b70d88dde4d7611bd6809ae439ae3f68f510cbf7962c1ac1610534/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423132383639352535445f32303231303432363039323033323131302e6a7067",
+    "name": "고구마프라이즈",
+    "detail": "달콤 고구마에 치즈 눈이 소복~~ 새로운 맥주 짝꿍! 달콤한 고구마 등장!",
+    "imgSrc": "https://camo.githubusercontent.com/127d42d249e7b833ebb537465262242f4e6e5b504c3df8dbec018d79241d8841/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f30392f6865726f5f494e4166345f323032335f31315f30395f31345f34305f31332e706e67",
     "price": 6000,
-    "category": "에스프레소",
+    "category": "튀김메뉴",
     "order": 0
   },
   "5": {
-    "name": "에스프레소 프라푸치노",
-    "detail": "에스프레소 샷의 강렬함과 약간의 단맛이 어우러진 프라푸치노",
-    "imgSrc": "https://camo.githubusercontent.com/2c5609dbd13b57fa0832d051ff41a4b8ade2f8ed56c17d99cb2ad04d1bc3814e/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423136383030372535445f32303231303431353134343333373537322e6a7067",
+    "name": "갈릭빠다포테이토",
+    "detail": "달달하고 진한 풍미의 갈릭버터와 포테이토의 환상궁합~",
+    "imgSrc": "https://camo.githubusercontent.com/018774ac71b9fbd90a212bb801fa65113ddd0da0d3d2637d42a04ae791146cc5/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f384e6a32435f323032335f31305f30355f31355f32315f30352e706e67",
     "price": 7000,
-    "category": "프라푸치노",
+    "category": "튀김메뉴",
     "order": 0
   },
   "6": {
-    "name": "자바 칩 프라푸치노",
-    "detail": "커피, 모카 소스, 진한 초콜릿 칩이 입안 가득 느껴지는 스타벅스에서만 맛볼 수 있는 프라푸치노",
-    "imgSrc": "https://camo.githubusercontent.com/b4ca5f23d521adf8d9b13a0c0f66e00ddfa0203afe23e260ab09fe30d6f72fd0/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423136383031362535445f32303231303431353135343135323237372e6a7067",
+    "name": "감바스",
+    "detail": "Hola! 할맥에서 즐기는 스페인 감성! 감바스와 바게트를 스윽 한입에!!",
+    "imgSrc": "https://camo.githubusercontent.com/fee53ec6a4e603259b3717be24e65ccd92adc8749e50de798104f5dd9a451d4a/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f31302f6865726f5f74756c70485f323032335f31305f31305f31305f31305f34372e706e67",
     "price": 7000,
-    "category": "프라푸치노",
+    "category": "별미메뉴",
     "order": 0
   },
   "7": {
-    "name": "카라멜 프라푸치노",
-    "detail": "카라멜과 커피가 어우러진 프라푸치노",
-    "imgSrc": "https://camo.githubusercontent.com/d8bdd2efa5a72fa76e0cab2d5c9251427e639fa5e7ba1a8f1ea5bddaa6d8b0cb/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f2535423136383031302535445f32303231303431353135343731313235392e6a7067",
+    "name": "모듬소세지",
+    "detail": "맛있는 녀석들만 모았습니다!",
+    "imgSrc": "https://camo.githubusercontent.com/7ac0e336b86ab0412613e93a7c74fd09ac681881fe5b46c1d344e8d2275103d8/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f65614d706d5f323032335f31305f30365f31325f31375f33352e706e67",
     "price": 7000,
-    "category": "프라푸치노",
+    "category": "별미메뉴",
     "order": 0
   },
   "8": {
-    "name": "자몽 허니 블랙 티",
-    "detail": "새콤한 자몽과 달콤한 꿀이 깊고 그윽한 풍미의 스타벅스 티바나 블랙 티의 조화",
-    "imgSrc": "https://camo.githubusercontent.com/56c0490a6e8a4fb26ade0dca532c84a6af01ef790143c2626e0caba207ee7624/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f253542393230303030303030303139302535445f32303231303431393133313732333638312e6a7067",
+    "name": "콘치즈그라탕",
+    "detail": "콘치즈에 고급스러움을 더하다!!",
+    "imgSrc": "https://camo.githubusercontent.com/8e3322bd47b558319d3966f9622d062277cd60487b9e7a8b8a924b9a1a2ff7cd/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f464e4f48705f323032335f31305f30365f31325f32365f31372e706e67",
     "price": 6000,
-    "category": "티",
+    "category": "별미메뉴",
     "order": 0
   },
   "9": {
-    "name": "캐모마일 블렌드 티",
-    "detail": "캐모마일과 레몬 그라스, 레몬밤, 히비스커스 등 블렌딩되어 은은하고 차분한 향이 기분을 좋게하는 허브 티",
-    "imgSrc": "https://camo.githubusercontent.com/92a7d2ca9fb32816da38ef3925bcaf57b56d1cd931151cf7770526ec16b71d4e/68747470733a2f2f696d6167652e69737461726275636b732e636f2e6b722f75706c6f61642f73746f72652f736b75696d672f323032312f30342f253542343030343030303030303037392535445f32303231303431353134333634313238382e6a7067",
+    "name": "염통꼬치",
+    "detail": "염통을 동나게 만들었다는 그 메뉴! 매콤 소스에 쫄깃함, 입 안이 행복해지는 꼬치~",
+    "imgSrc": "https://camo.githubusercontent.com/fa59843c3076c7ff77e0d9e990a735d25b9f2edb8130f7b5974c7398d490b5ca/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f6a644858785f323032335f31305f30355f31355f32325f33312e706e67",
     "price": 6000,
-    "category": "티",
+    "category": "별미메뉴",
+    "order": 0
+  },
+  "10": {
+    "name": "수제소세지",
+    "detail": "알록달록 소스옷을 입은 소세지 두마리~",
+    "imgSrc": "https://camo.githubusercontent.com/6d653b6332afd3eb0030f868b4766db988f616add80a6f97f3316c98f78c6f19/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f5670346e495f323032335f31305f30365f31325f31395f33322e706e67",
+    "price": 6000,
+    "category": "별미메뉴",
+    "order": 0
+  },
+  "11": {
+    "name": "치즈라볶이",
+    "detail": "추억의 그 맛 국물떡볶이! 한 뚝배기에 꾹꾹 눌러 담았다!",
+    "imgSrc": "https://camo.githubusercontent.com/9353a93e24bda271717fa4ebedead41b1d26cba4d45419e30825e0ae504a4329/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f33775869415f323032335f31305f30355f31355f32305f32332e706e67",
+    "price": 6000,
+    "category": "탕/찌개메뉴",
+    "order": 0
+  },
+  "12": {
+    "name": "짜파구리",
+    "detail": "집에서 해먹는 짜빠구리와는 차원이 다른 클라쓰!!",
+    "imgSrc": "https://camo.githubusercontent.com/c47a9c2047b3715f8249118efad23ff8d7a734f47050a3bc5aa336071d3b6714/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f367256354c5f323032335f31305f30355f31355f32315f33312e706e67",
+    "price": 6000,
+    "category": "탕/찌개메뉴",
+    "order": 0
+  },
+  "13": {
+    "name": "어묵탕",
+    "detail": "한 뚝배기 가득 오동통한 어묵들이 듬뿍!!",
+    "imgSrc": "https://camo.githubusercontent.com/8cd198cfca3301da1c859efb949b562c7e6ce199d558d58bc51b0df7f1ded3d3/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f30392f6865726f5f4d736270755f323032335f31315f30395f31345f34315f33362e706e67",
+    "price": 6000,
+    "category": "탕/찌개메뉴",
+    "order": 0
+  },
+  "14": {
+    "name": "쫄지마라탕",
+    "detail": "맵찔이도 도전! 누구나 먹기 좋은 할매표 얼얼 매콤한 마라의 매력에 퐁당~",
+    "imgSrc": "https://camo.githubusercontent.com/a80d8509fc51b7cc3bd9619edc8c9f644cb9d815321b817fe83c1b97aaca7574/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31315f31372f6865726f5f5969314b565f323032335f31315f31375f31305f35375f34352e706e67",
+    "price": 6000,
+    "category": "탕/찌개메뉴",
+    "order": 0
+  },
+  "15": {
+    "name": "불짬뽕탕",
+    "detail": "얼큰한 국물이 땡기는 날 불러주세요~",
+    "imgSrc": "https://camo.githubusercontent.com/e078bb83d6f8c15eabf20f8e946faad263dea441a1ed6a9b4633c7c25715d79a/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f7950795a465f323032335f31305f30365f31325f32365f32362e706e67",
+    "price": 6000,
+    "category": "탕/찌개메뉴",
+    "order": 0
+  },
+  "16": {
+    "name": "먹태",
+    "detail": "주당들의 최애안주! 바삭쫄깃 먹태와 할맥 특제 소스가 만났다!!",
+    "imgSrc": "https://camo.githubusercontent.com/f352d3ad50f67553816e9fe185b03a2c0c89991dfec58e1945e9a7e41f17a559/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f7a494f48575f323032335f31305f30355f31355f32335f30352e706e67",
+    "price": 6000,
+    "category": "건어물메뉴",
+    "order": 0
+  },
+  "17": {
+    "name": "버터구이오징어",
+    "detail": "진~한 버터에 한바탕 뒹군 오징어!!",
+    "imgSrc": "https://camo.githubusercontent.com/3522a0d61e63124028d2ddda9190b604347de03c3267431b0896ae1448751cb8/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f55754552785f323032335f31305f30365f31325f31345f33342e706e67",
+    "price": 6000,
+    "category": "건어물메뉴",
+    "order": 0
+  },
+  "18": {
+    "name": "오징어입",
+    "detail": "누구도 먹지 않던 오징어입! 역전할맥과 만나 국민 술안주로 등극!",
+    "imgSrc": "https://camo.githubusercontent.com/3200ad9f259ee8e70ffd1fc24192508bb57b8fba6033d9ab42db5887500f316b/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30352f6865726f5f66665952695f323032335f31305f30355f31355f32305f34322e706e67",
+    "price": 6000,
+    "category": "건어물메뉴",
+    "order": 0
+  },
+  "19": {
+    "name": "반건조오징어",
+    "detail": "이 정도 부드러움이라면 1인 1오징어는 기본!",
+    "imgSrc": "https://camo.githubusercontent.com/64c7ac1c1d9d132bdb3f3568370e2ac693cf5717d9cb00cef7567451c896431e/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f79797a4c685f323032335f31305f30365f31325f31395f34322e706e67",
+    "price": 6000,
+    "category": "건어물메뉴",
+    "order": 0
+  },
+  "20": {
+    "name": "아귀포",
+    "detail": "건어물계의 귀족, 담백함의 끝판왕 아귀포!",
+    "imgSrc": "https://camo.githubusercontent.com/0d8615602eaf2b46b1a3cd33c71697c6daaa7b16861f87ad9874013abb56f853/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f39735762665f323032335f31305f30365f31325f32365f33332e706e67",
+    "price": 6000,
+    "category": "건어물메뉴",
+    "order": 0
+  },
+  "21": {
+    "name": "핑크레몬하이볼",
+    "detail": "핑크레몬만의 상큼하고 달달한 매력과 영롱한 핑크빛에 퐁당!",
+    "imgSrc": "https://camo.githubusercontent.com/3c5dbc9ca9587ada5173b53405e9e75a46c43ed38c46eee3b9440ea2b7519801/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032345f30355f31302f6865726f5f6542506a4c5f323032345f30355f31305f31315f31315f31382e706e67",
+    "price": 6000,
+    "category": "주류",
+    "order": 0
+  },
+  "22": {
+    "name": "유자클래식하이볼",
+    "detail": "노랑노랑 달달한 유자~ 침샘 한번 터져볼테야?!",
+    "imgSrc": "https://camo.githubusercontent.com/ec2bd63d48cd0316213aebdd38d68aff2c10a913bb7232839a2ebbd0d64c812b/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f68554f36555f323032335f31305f30365f31325f33305f33352e706e67",
+    "price": 6000,
+    "category": "주류",
+    "order": 0
+  },
+  "23": {
+    "name": "오렌지자몽하이볼",
+    "detail": "오렌지와 자몽의 달콤씁쓸한 첫사랑의 맛!",
+    "imgSrc": "https://camo.githubusercontent.com/ea733784d37008fa5cc64f461bcc2da78e1d7ef0f06e4724cddba27a6fcf5b4f/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f32744d6a665f323032335f31305f30365f31325f33365f35342e706e67",
+    "price": 6000,
+    "category": "주류",
+    "order": 0
+  },
+  "24": {
+    "name": "피치오리지널",
+    "detail": "상큼달달 발그레한 피치피치!! 달달함에 취함 주의!",
+    "imgSrc": "https://camo.githubusercontent.com/38c4c338ecda8dc31f64284962036f02ab6f2e031a131fb3c7b7f7c73baa528e/68747470733a2f2f79656f6b6a656f6e666e632e636f6d2f75706c6f61642f6d656e755f30312f323032335f31305f30362f6865726f5f54366147685f323032335f31305f30365f31325f33305f32342e706e67",
+    "price": 6000,
+    "category": "주류",
     "order": 0
   }
 }
