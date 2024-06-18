@@ -27,11 +27,11 @@ const Page: () => JSX.Element = () => {
     <>
       <Stack position="relative">
         <Header />
-        <Suspense fallback={<MenuSkeleton />}>
+        {/* <Suspense fallback={<MenuSkeleton />}>
           <MenuContainer />
-        </Suspense>
-        <Footer />
-        <Modals />
+        </Suspense> */}
+        {/* <Footer /> */}
+        {/* <Modals /> */}
       </Stack>
     </>
   );
