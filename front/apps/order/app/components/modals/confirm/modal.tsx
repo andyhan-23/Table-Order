@@ -28,7 +28,7 @@ export const Modal = () => {
       containerStyle: {
         marginTop: "7.5vh",
       },
-      colorScheme: "whatsapp",
+      colorScheme: "red",
       duration: 1000,
       isClosable: true,
       status: "success",

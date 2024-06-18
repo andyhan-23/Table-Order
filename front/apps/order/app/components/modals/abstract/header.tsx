@@ -20,7 +20,7 @@ const Header = ({ onClose, title }: HeaderType) => (
       </Text>
       <Flex flexBasis="25%" h="50%" minH="36px" my="auto">
         <CTAButton
-          className="bg-pink"
+          className="bg-black"
           content={
             <Text fontSize="xl" fontWeight={800}>
               닫기

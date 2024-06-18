@@ -8,7 +8,7 @@ const CallStaff = () => {
   const onClick = () => {
     if (toastIdRef.current && toast.isActive(toastIdRef.current)) {
       toast.update(toastIdRef.current, {
-        colorScheme: "red",
+        colorScheme: "gray",
         containerStyle: {
           marginTop: "7.5vh",
         },
@@ -21,7 +21,7 @@ const CallStaff = () => {
     } else {
       toast.closeAll();
       toastIdRef.current = toast({
-        colorScheme: "whatsapp",
+        colorScheme: "red",
         containerStyle: {
           marginTop: "7.5vh",
         },
@@ -36,7 +36,7 @@ const CallStaff = () => {
   return (
     <Box flexBasis="130px" h="2.5rem" maxW="30%">
       <CTAButton
-        className="bg-green"
+        className="bg-red"
         content={
           <Text
             fontSize="calc(min(1rem + 0.5vw, 1.5rem))"

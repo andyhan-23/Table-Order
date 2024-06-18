@@ -26,7 +26,7 @@ const ResetStateButton = () => {
   return (
     <Stack alignItems="center" h="5vh" mt="2vh" w="92%">
       <CTAButton
-        className="bg-pink"
+        className="bg-skyblue"
         content={
           <Text fontSize="xl" fontWeight="extrabold">
             초기화 (FOR DEVELOP)

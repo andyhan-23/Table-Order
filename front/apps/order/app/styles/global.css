@@ -21,7 +21,8 @@ body {
   --bg-lightgray: #e8e8e8;
   --main-theme-white: #ffffff;
   --main-theme-blue: #3288ff;
-  --main-theme-red: #f56565;
+  --main-theme-red: #e53e3e;
   --main-theme-orange: #ffa932;
-  --main-theme-green: #2f855a;
+  --main-theme-skyblue: #3ee5e5;
+  --main-theme-black: #000000;
 }

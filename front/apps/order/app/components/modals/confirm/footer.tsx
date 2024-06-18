@@ -57,7 +57,7 @@ const Footer = ({ onClose, onConfirm }: FooterType) => {
       <HStack alignItems="center" flexGrow={1} minH="50px" w="100%">
         <Flex h="80%" px="10%" w="50%">
           <CTAButton
-            className="bg-orange"
+            className="bg-skyblue"
             content={
               <Text fontSize="xl" fontWeight={700} px="2.5vw">
                 돌아가기
@@ -68,7 +68,7 @@ const Footer = ({ onClose, onConfirm }: FooterType) => {
         </Flex>
         <Flex h="85%" px="10%" w="50%">
           <CTAButton
-            className="bg-blue"
+            className="bg-red"
             content={
               <Text fontSize="2xl" fontWeight={700} px="2.5vw">
                 주문하기

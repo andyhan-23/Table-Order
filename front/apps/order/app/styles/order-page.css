@@ -18,6 +18,9 @@ body {
 .bg-orange {
   background-color: var(--main-theme-orange);
 }
-.bg-green {
-  background-color: var(--main-theme-green);
+.bg-skyblue {
+  background-color: var(--main-theme-skyblue);
+}
+.bg-black {
+  background-color: var(--main-theme-black);
 }

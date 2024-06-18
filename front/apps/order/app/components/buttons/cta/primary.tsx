@@ -11,7 +11,7 @@ type PrimaryCTAButtonType = {
 };
 
 const PrimaryCTAButton = ({
-  className = "bg-green",
+  className = "bg-red",
   count = 0,
   onClick,
   price,

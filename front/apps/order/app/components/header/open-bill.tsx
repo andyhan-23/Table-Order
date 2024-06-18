@@ -7,7 +7,7 @@ const OpenBill = () => {
   return (
     <Box flexBasis="130px" h="2.5rem" maxW="30%">
       <CTAButton
-        className="bg-green"
+        className="bg-red"
         content={
           <Text
             fontSize="calc(min(1rem + 0.5vw, 1.5rem))"
