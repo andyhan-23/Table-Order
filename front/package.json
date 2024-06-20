@@ -2,16 +2,16 @@
   "name": "front",
   "private": true,
   "scripts": {
-    "build": "next.js build --output public",
+    "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "latest",
+    "eslint-config-custom": "*"
   },
   "engines": {
     "node": ">=18"
