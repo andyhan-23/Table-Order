@@ -5,8 +5,8 @@ type ImagePropsType = {
   src: string;
 };
 
-const Image = ({ alt, src }: ImagePropsType) => {
-  return src ? (
+const Image = ({ alt, src }: ImagePropsType) =>
+  src ? (
     <Box aspectRatio={1} h="100%" maxH="20vh" position="relative">
       <ChakraImage
         alt={alt}
@@ -19,6 +19,5 @@ const Image = ({ alt, src }: ImagePropsType) => {
       {/* <NextImage alt={alt} borderRadius="0 12px 12px 0" fill sizes="(max-height: 600px) 25vw" src={src} /> */}
     </Box>
   ) : null;
-};
 
 export default Image;

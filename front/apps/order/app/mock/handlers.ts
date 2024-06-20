@@ -15,12 +15,12 @@ import menuItemsJSON from "./__fixtures__/menu-items.json";
 import menuCategoriesJSON from "./__fixtures__/menu-categories.json";
 
 const handlers = [
-  rest.get("/item", (req, res, ctx) => {
-    return res(ctx.status(200), ctx.json(menuItemsJSON));
-  }),
-  rest.get("/categories", (req, res, ctx) => {
-    return res(ctx.status(200), ctx.json(menuCategoriesJSON));
-  }),
+  rest.get("/item", (req, res, ctx) =>
+    res(ctx.status(200), ctx.json(menuItemsJSON))
+  ),
+  rest.get("/categories", (req, res, ctx) =>
+    res(ctx.status(200), ctx.json(menuCategoriesJSON))
+  ),
 ];
 
 export default handlers;

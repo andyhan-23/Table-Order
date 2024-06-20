@@ -1,8 +1,8 @@
+import { useSetRecoilState } from "recoil";
 import { Box, HStack } from "@chakra-ui/react";
 import Text from "./text";
 import Image from "./image";
 import { menuDetailModalStore } from "../../../stores/modal";
-import { useSetRecoilState } from "recoil";
 import useModal from "../../../hooks/use-modal";
 
 type ItemPropsT = {

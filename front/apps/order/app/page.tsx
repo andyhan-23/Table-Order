@@ -1,8 +1,7 @@
 "use client";
-
+import { Suspense } from "react";
 import { Stack } from "@chakra-ui/react";
 import { Header } from "./components/header";
-import { Suspense } from "react";
 import MenuSkeleton from "./components/menu/skeleton";
 import { MenuContainer } from "./components/menu";
 import { Modals } from "./components/modals";

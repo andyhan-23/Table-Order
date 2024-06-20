@@ -6,8 +6,8 @@ import { useLayoutEffect } from "react";
 
 const AppUIProvider = ({ children }: { children: React.ReactNode }) => {
   const CSSLazyImport = () => {
-    import("../../../app/styles/global.css");
-    import("../../../app/styles/order-page.css");
+    import("../../styles/global.css");
+    import("../../styles/order-page.css");
   };
 
   useLayoutEffect(() => {
