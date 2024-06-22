@@ -17,8 +17,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
       <meta content="default" name="apple-mobile-web-app-status-bar-style" />
       <meta content="#ffffff" name="theme-color" />
       <meta content="yes" name="apple-mobile-web-app-capable" />
-      <meta content="스마트 오더" name="apple-mobile-web-app-title" />
-      <title>스마트 오더</title>
+      <meta content="테이블 오더" name="apple-mobile-web-app-title" />
+      <title>테이블 오더</title>
       <link href="/favicon.ico" rel="icon" sizes="any" />
       <link
         as="style"
