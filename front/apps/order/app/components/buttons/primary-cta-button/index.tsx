@@ -1,6 +1,6 @@
 import { Flex, HStack, Text } from "@chakra-ui/react";
-import CTAButton from ".";
-import NumberInCircle from "../../number-in-cirlcle";
+import CTAButton from "../../../../../../packages/ui/button/cta-button";
+import NumberInCircle from "../../../../../../packages/ui/number-in-circle";
 
 type PrimaryCTAButtonType = {
   className?: string;

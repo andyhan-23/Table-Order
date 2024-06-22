@@ -1,7 +1,7 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { useRecoilState } from "recoil";
 import { basketItemsStore } from "../../stores/basket";
-import { PrimaryCTAButton } from "../buttons";
+import PrimaryCTAButton from "../buttons/primary-cta-button";
 import useModal from "../../hooks/use-modal";
 
 const Footer = () => {

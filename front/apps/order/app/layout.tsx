@@ -1,4 +1,4 @@
-import UIProvider from "./components/providers/ui";
+import UIProvider from "../../../packages/ui/ui-provider";
 import AppUIProvider from "./components/providers/app-ui";
 import DataProvider from "./components/providers/data";
 

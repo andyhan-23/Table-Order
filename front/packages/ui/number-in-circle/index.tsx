@@ -1,13 +1,13 @@
-import { Flex, Text } from '@chakra-ui/react';
+import { Flex, Text } from "@chakra-ui/react";
 
-export const NumberInCircle = ({ number }: { number: number }) => {
+const NumberInCircle = ({ number }: { number: number }) => {
   let fontSize: string;
   if (number < 10) {
-    fontSize = '3xl';
+    fontSize = "3xl";
   } else if (number < 100) {
-    fontSize = '2xl';
+    fontSize = "2xl";
   } else {
-    fontSize = 'xl';
+    fontSize = "xl";
   }
   return (
     <Flex aspectRatio={1} h="100%">
@@ -28,3 +28,5 @@ export const NumberInCircle = ({ number }: { number: number }) => {
     </Flex>
   );
 };
+
+export default NumberInCircle;

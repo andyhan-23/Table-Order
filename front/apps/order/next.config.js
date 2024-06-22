@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  // transpilePackages: ["@repo/ui"],
   reactStrictMode: false,
-  //transpilePackages: ['ui'],
+  transpilePackages: ["ui"],
   experimental: {
     forceSwcTransforms: true,
   },

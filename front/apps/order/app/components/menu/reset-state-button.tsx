@@ -1,6 +1,6 @@
 import { useSetRecoilState } from "recoil";
 import { Stack, Text, useToast } from "@chakra-ui/react";
-import CTAButton from "../buttons/cta";
+import CTAButton from "../../../../../packages/ui/button/cta-button";
 import { basketItemsStore } from "../../stores/basket";
 import { orderHistoryStore } from "../../stores/history";
 

@@ -1,6 +1,6 @@
 import { useRecoilValue } from "recoil";
 import { Flex, HStack, Text, VStack } from "@chakra-ui/react";
-import CTAButton from "../../buttons/cta";
+import CTAButton from "../../../../../../packages/ui/button/cta-button";
 import { basketItemsStore } from "../../../stores/basket";
 
 type FooterType = {

@@ -1,14 +1,19 @@
-import React from 'react';
-import { Button } from '@chakra-ui/react';
+import React from "react";
+import { Button } from "@chakra-ui/react";
 
-interface CTAButtonProps {
+type CTAButtonProps = {
   className: string;
   content: JSX.Element;
   disabled?: boolean;
   onClick?: () => void;
-}
+};
 
-export const CTAButton = ({ className, content, disabled = false, onClick }: CTAButtonProps): JSX.Element => (
+const CTAButton = ({
+  className,
+  content,
+  disabled = false,
+  onClick,
+}: CTAButtonProps): JSX.Element => (
   <Button
     _hover={{ bgColor: null }}
     // boxShadow="xl"
@@ -23,3 +28,5 @@ export const CTAButton = ({ className, content, disabled = false, onClick }: CTA
     {content}
   </Button>
 );
+
+export default CTAButton;

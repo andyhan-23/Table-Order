@@ -1,6 +1,6 @@
 import { Box, Text, useToast, ToastId } from "@chakra-ui/react";
 import { useRef } from "react";
-import CTAButton from "../buttons/cta";
+import CTAButton from "../../../../../packages/ui/button/cta-button";
 
 const CallStaff = () => {
   const toast = useToast();

@@ -1,5 +1,5 @@
 import { Box, Flex, HStack, Text } from "@chakra-ui/react";
-import CTAButton from "../buttons/cta";
+import CTAButton from "../../../../../packages/ui/button/cta-button";
 
 type AddItemToBasketButtonT = {
   onClick: () => void;

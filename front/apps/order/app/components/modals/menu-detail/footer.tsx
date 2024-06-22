@@ -1,6 +1,6 @@
 import { Flex } from "@chakra-ui/react";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import { PrimaryCTAButton } from "../../buttons";
+import PrimaryCTAButton from "../../buttons/primary-cta-button";
 import { menuDetailModalStore } from "../../../stores/modal";
 import { addItemInBasket } from "../../../stores/basket";
 import useModal from "../../../hooks/use-modal";

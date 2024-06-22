@@ -1,5 +1,5 @@
 import { Box, Text } from "@chakra-ui/react";
-import CTAButton from "../buttons/cta";
+import CTAButton from "../../../../../packages/ui/button/cta-button";
 import useModal from "../../hooks/use-modal";
 
 const OpenBill = () => {

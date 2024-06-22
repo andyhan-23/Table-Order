@@ -1,5 +1,5 @@
 import { useRecoilState, useSetRecoilState } from "recoil";
-import AbstractModal from "../abstract";
+import { Modal as AbstractModal } from "../../../../../../packages/ui/abstract-modal";
 import { useToast } from "@chakra-ui/react";
 import Footer from "./footer";
 import { basketItemsStore } from "../../../stores/basket";

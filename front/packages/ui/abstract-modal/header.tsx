@@ -1,5 +1,5 @@
-import { Flex, HStack, ModalHeader, Text } from '@chakra-ui/react';
-import { CTAButton } from '../button';
+import { Flex, HStack, ModalHeader, Text } from "@chakra-ui/react";
+import CTAButton from "../../../packages/ui/button/cta-button";
 
 type HeaderT = {
   onClose: () => void;
@@ -7,7 +7,13 @@ type HeaderT = {
 };
 
 export const Header = ({ onClose, title }: HeaderT) => (
-  <ModalHeader borderBottom="1px solid lightgray" flex="none" h="8vh" minH="80px" py={0}>
+  <ModalHeader
+    borderBottom="1px solid lightgray"
+    flex="none"
+    h="8vh"
+    minH="80px"
+    py={0}
+  >
     <HStack h="100%" justifyContent="space-between" py={0} w="100%">
       <Text fontSize="2xl" fontWeight={900}>
         {title}
