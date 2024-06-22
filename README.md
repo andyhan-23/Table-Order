@@ -10,7 +10,7 @@
 
 ## 실행하는 법
 ```
-$ git clone https://github.com/andyhan-23/table-order.git
+$ git clone https://github.com/andyhan-23/Table-Order.git
 $ cd front
 $ yarn
 $ yarn dev
