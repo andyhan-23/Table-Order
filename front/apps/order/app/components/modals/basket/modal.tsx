@@ -1,4 +1,4 @@
-import { Modal as AbstractModal } from "../../../../../../packages/ui/abstract-modal";
+import { Modal as AbstractModal } from "../abstract";
 import BasketItems from "./items";
 import Footer from "./footer";
 import useModal from "../../../hooks/use-modal";

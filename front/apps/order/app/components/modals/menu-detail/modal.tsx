@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import { Modal as AbstractModal } from "../../../../../../packages/ui/abstract-modal";
+import { Modal as AbstractModal } from "../abstract";
 import useModal from "../../../hooks/use-modal";
 import { menuItemsStore } from "../../../stores/menu";
 import { menuDetailModalStore } from "../../../stores/modal";

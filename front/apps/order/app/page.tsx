@@ -23,16 +23,14 @@ const Page: () => JSX.Element = () => {
   }
 
   return (
-    <>
-      <Stack position="relative">
-        <Header />
-        <Suspense fallback={<MenuSkeleton />}>
-          <MenuContainer />
-        </Suspense>
-        <Footer />
-        <Modals />
-      </Stack>
-    </>
+    <Stack position="relative">
+      <Header />
+      <Suspense fallback={<MenuSkeleton />}>
+        <MenuContainer />
+      </Suspense>
+      <Footer />
+      <Modals />
+    </Stack>
   );
 };
 
