@@ -11,7 +11,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
         name="viewport"
       />
       <meta
-        content="스마트폰으로 주문하는 스마트 오더 시스템입니다."
+        content="스마트폰으로 주문하는 테이블 오더 시스템입니다."
         name="description"
       />
       <meta content="default" name="apple-mobile-web-app-status-bar-style" />
