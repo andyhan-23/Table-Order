@@ -8,6 +8,9 @@
 ## Preview
 <img width="625" alt="스크린샷 2024-06-21 오후 8 24 11" src="https://github.com/andyhan-23/Table-Order/assets/98483125/f1661baf-9ec8-48b6-8509-19ae1549b0b2">
 
+## 고민했던 부분
+1. [UI/UX에 대한 깊은 고민을 해보았습니다.](https://velog.io/@kungfuk11/%EC%89%BD%EA%B3%A0-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-UIUX)
+
 ## 실행하는 법
 ```
 $ git clone https://github.com/andyhan-23/Table-Order.git
