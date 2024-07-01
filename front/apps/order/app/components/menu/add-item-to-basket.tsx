@@ -10,6 +10,7 @@ const AddItemToBasketButton = ({
   onClick,
   quantity,
 }: AddItemToBasketButtonT): JSX.Element => {
+  console.log("test");
   const buttonClass = `bg-${quantity ? "skyblue" : "red"}`;
   const content =
     quantity > 0 ? (
