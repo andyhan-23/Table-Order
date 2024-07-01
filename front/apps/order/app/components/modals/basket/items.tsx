@@ -20,6 +20,7 @@ type BasketItemsType = { [key: string]: BasketItemType } & {
 };
 
 const BasketItems = () => {
+  console.log("test");
   const { sumCount, sumPrice, ...basketItems }: BasketItemsType =
     useRecoilValue(basketItemsStore);
 
