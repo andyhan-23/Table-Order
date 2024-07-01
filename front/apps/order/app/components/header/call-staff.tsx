@@ -3,6 +3,7 @@ import { useRef } from "react";
 import CTAButton from "../../../../../packages/ui/button/cta-button";
 
 const CallStaff = () => {
+  console.log("test");
   const toast = useToast();
   const toastIdRef = useRef<ToastId | null>(null);
   const onClick = () => {
