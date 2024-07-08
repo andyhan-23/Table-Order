@@ -9,7 +9,13 @@
 - 디자인 시스템을 표방하여 재사용이 용이한 추상화된 컴포넌트를 구현합니다.
 - 직관성이 높은 UI/UX 구현을 목표로 합니다.
 - 사용자 경험을 개선하기 위해 행동 유도(Call To Action) 요소를 적극적으로 활용합니다.
-  
+
+## TechStacks
+- 코어: Next.JS, React, TypeScript
+- 상태관리: React-Query(Server State), Recoil(Client State)
+- 디자인: Chakra UI
+- JS utility library: lodash
+
 ## Preview
 <img width="625" alt="스크린샷 2024-06-21 오후 8 24 11" src="https://github.com/andyhan-23/Table-Order/assets/98483125/f1661baf-9ec8-48b6-8509-19ae1549b0b2">
 
