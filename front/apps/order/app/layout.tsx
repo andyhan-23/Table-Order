@@ -1,6 +1,6 @@
 import UIProvider from "../../../packages/ui/ui-provider";
-import AppUIProvider from "./components/providers/app-ui";
-import DataProvider from "./components/providers/data";
+import AppUIProvider from "../components/providers/app-ui";
+import DataProvider from "../components/providers/data";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="ko">
