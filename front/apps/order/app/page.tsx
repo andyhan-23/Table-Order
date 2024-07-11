@@ -1,4 +1,5 @@
 "use client";
+
 import { Suspense } from "react";
 import { Stack } from "@chakra-ui/react";
 import { Header } from "./components/header";

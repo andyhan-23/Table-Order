@@ -1,17 +1,17 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: false,
-  transpilePackages: ["ui"],
+  transpilePackages: ['ui'],
   experimental: {
     forceSwcTransforms: true,
   },
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "*",
-        port: "",
-        pathname: "**",
+        protocol: 'https',
+        hostname: '*',
+        port: '',
+        pathname: '**',
       },
     ],
   },
@@ -20,10 +20,5 @@ module.exports = {
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
   },
 };
