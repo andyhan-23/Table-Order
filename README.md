@@ -24,7 +24,7 @@
 
 ## 실행하는 법
 ```
-$ git clone https://github.com/andyhan-23/Table-Order.git
+$ git clone https://github.com/andyhan-23/smartphone-order.git
 $ cd front
 $ yarn
 $ yarn dev
