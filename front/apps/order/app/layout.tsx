@@ -1,24 +1,31 @@
-import UIProvider from "../../../packages/ui/ui-provider";
-import AppUIProvider from "../components/providers/app-ui";
-import DataProvider from "../components/providers/data";
+import UIProvider from '../../../packages/ui/ui-provider';
+import AppUIProvider from '../components/providers/app-ui';
+import DataProvider from '../components/providers/data';
+
+type Metadata = {
+  title: string;
+  icons: {
+    icon: string;
+  };
+};
+export const metadata: Metadata = {
+  title: '스마트폰 오더 favicon',
+  icons: {
+    icon: '/orderFavicon.jpg',
+  },
+};
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="ko">
     <head>
       <meta charSet="UTF-8" />
-      <meta
-        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        name="viewport"
-      />
-      <meta
-        content="스마트폰으로 주문하는 테이블 오더 시스템입니다."
-        name="description"
-      />
+      <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport" />
+      <meta content="스마트폰으로 주문하는 테이블 오더 시스템입니다." name="description" />
       <meta content="default" name="apple-mobile-web-app-status-bar-style" />
       <meta content="#ffffff" name="theme-color" />
       <meta content="yes" name="apple-mobile-web-app-capable" />
       <meta content="테이블 오더" name="apple-mobile-web-app-title" />
-      <title>테이블 오더</title>
+      <title>smartphone-order</title>
       <link href="/favicon.ico" rel="icon" sizes="any" />
       <link
         as="style"
