@@ -21,6 +21,8 @@
 
 ## 고민했던 부분
 1. [UI/UX에 대한 깊은 고민을 해보았습니다.](https://velog.io/@kungfuk11/%EC%89%BD%EA%B3%A0-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-UIUX)
+2. [버튼 하나도 깊이 있는 고민을 해보았습니다.](https://velog.io/@kungfuk11/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0)
+3. [Recoil을 선택한 이유](https://velog.io/@kungfuk11/Recoil%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%9C%A0)_
 
 ## 실행하는 법
 ```
